@@ -1,0 +1,23 @@
+[user]
+	name = Sachin Ranchod
+	email = sachin.ranchod@gmail.com
+[core]
+	editor = vim
+	excludesfile = /Users/sachin/.gitignore_global
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = auto
+	pager = true
+[push]
+  # 'git push' will push the current branch to its tracking branch
+  # the usual default is to push all branches
+  default = tracking
+[merge]
+  summary = true
+  verbosity = 1
+[alias]
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
